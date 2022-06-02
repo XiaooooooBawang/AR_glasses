@@ -1,0 +1,10 @@
+<!--location.wxml-->
+
+<view class="view-contain-ti">
+    <text class="text-ti">目的地</text>
+    <input class="input1" placeholder="输入后点击开始导航" bindinput="inputDes" name="geocoder"></input>
+</view>
+<view>
+    <button type="primary" bindtap="onTapButton">开始导航</button>
+</view>
+
